@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A16FD21B4EC3B000A76C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD11B4EC3B000A76C29 /* main.m */; };
+		12A16FD51B4EC3B000A76C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD41B4EC3B000A76C29 /* AppDelegate.m */; };
+		12A16FD81B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD61B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld */; };
+		12A16FDB1B4EC3B000A76C29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FDA1B4EC3B000A76C29 /* ViewController.m */; };
+		12A16FDE1B4EC3B000A76C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A16FDC1B4EC3B000A76C29 /* Main.storyboard */; };
+		12A16FE01B4EC3B000A76C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A16FDF1B4EC3B000A76C29 /* Images.xcassets */; };
+		12A16FE31B4EC3B000A76C29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */; };
+		12A16FEF1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FEE1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A16FE91B4EC3B000A76C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A16FC41B4EC3B000A76C29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A16FCB1B4EC3B000A76C29;
+			remoteInfo = AdaptiveRotationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A16FCC1B4EC3B000A76C29 /* AdaptiveRotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveRotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A16FD01B4EC3B000A76C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A16FD11B4EC3B000A76C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12A16FD31B4EC3B000A76C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12A16FD41B4EC3B000A76C29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12A16FD71B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdaptiveRotationTest.xcdatamodel; sourceTree = "<group>"; };
+		12A16FD91B4EC3B000A76C29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12A16FDA1B4EC3B000A76C29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12A16FDD1B4EC3B000A76C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A16FDF1B4EC3B000A76C29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		12A16FE21B4EC3B000A76C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		12A16FE81B4EC3B000A76C29 /* AdaptiveRotationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdaptiveRotationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A16FED1B4EC3B000A76C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A16FEE1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveRotationTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A16FC91B4EC3B000A76C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A16FE51B4EC3B000A76C29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A16FC31B4EC3B000A76C29 = {
+			isa = PBXGroup;
+			children = (
+				12A16FCE1B4EC3B000A76C29 /* AdaptiveRotationTest */,
+				12A16FEB1B4EC3B000A76C29 /* AdaptiveRotationTestTests */,
+				12A16FCD1B4EC3B000A76C29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A16FCD1B4EC3B000A76C29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A16FCC1B4EC3B000A76C29 /* AdaptiveRotationTest.app */,
+				12A16FE81B4EC3B000A76C29 /* AdaptiveRotationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A16FCE1B4EC3B000A76C29 /* AdaptiveRotationTest */ = {
+			isa = PBXGroup;
+			children = (
+				12A16FD31B4EC3B000A76C29 /* AppDelegate.h */,
+				12A16FD41B4EC3B000A76C29 /* AppDelegate.m */,
+				12A16FD91B4EC3B000A76C29 /* ViewController.h */,
+				12A16FDA1B4EC3B000A76C29 /* ViewController.m */,
+				12A16FDC1B4EC3B000A76C29 /* Main.storyboard */,
+				12A16FDF1B4EC3B000A76C29 /* Images.xcassets */,
+				12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */,
+				12A16FD61B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld */,
+				12A16FCF1B4EC3B000A76C29 /* Supporting Files */,
+			);
+			path = AdaptiveRotationTest;
+			sourceTree = "<group>";
+		};
+		12A16FCF1B4EC3B000A76C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A16FD01B4EC3B000A76C29 /* Info.plist */,
+				12A16FD11B4EC3B000A76C29 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12A16FEB1B4EC3B000A76C29 /* AdaptiveRotationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A16FEE1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m */,
+				12A16FEC1B4EC3B000A76C29 /* Supporting Files */,
+			);
+			path = AdaptiveRotationTestTests;
+			sourceTree = "<group>";
+		};
+		12A16FEC1B4EC3B000A76C29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12A16FED1B4EC3B000A76C29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A16FCB1B4EC3B000A76C29 /* AdaptiveRotationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A16FF21B4EC3B000A76C29 /* Build configuration list for PBXNativeTarget "AdaptiveRotationTest" */;
+			buildPhases = (
+				12A16FC81B4EC3B000A76C29 /* Sources */,
+				12A16FC91B4EC3B000A76C29 /* Frameworks */,
+				12A16FCA1B4EC3B000A76C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdaptiveRotationTest;
+			productName = AdaptiveRotationTest;
+			productReference = 12A16FCC1B4EC3B000A76C29 /* AdaptiveRotationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A16FE71B4EC3B000A76C29 /* AdaptiveRotationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A16FF51B4EC3B000A76C29 /* Build configuration list for PBXNativeTarget "AdaptiveRotationTestTests" */;
+			buildPhases = (
+				12A16FE41B4EC3B000A76C29 /* Sources */,
+				12A16FE51B4EC3B000A76C29 /* Frameworks */,
+				12A16FE61B4EC3B000A76C29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A16FEA1B4EC3B000A76C29 /* PBXTargetDependency */,
+			);
+			name = AdaptiveRotationTestTests;
+			productName = AdaptiveRotationTestTests;
+			productReference = 12A16FE81B4EC3B000A76C29 /* AdaptiveRotationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A16FC41B4EC3B000A76C29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Emerge Media";
+				TargetAttributes = {
+					12A16FCB1B4EC3B000A76C29 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					12A16FE71B4EC3B000A76C29 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 12A16FCB1B4EC3B000A76C29;
+					};
+				};
+			};
+			buildConfigurationList = 12A16FC71B4EC3B000A76C29 /* Build configuration list for PBXProject "AdaptiveRotationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A16FC31B4EC3B000A76C29;
+			productRefGroup = 12A16FCD1B4EC3B000A76C29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A16FCB1B4EC3B000A76C29 /* AdaptiveRotationTest */,
+				12A16FE71B4EC3B000A76C29 /* AdaptiveRotationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A16FCA1B4EC3B000A76C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A16FDE1B4EC3B000A76C29 /* Main.storyboard in Resources */,
+				12A16FE31B4EC3B000A76C29 /* LaunchScreen.xib in Resources */,
+				12A16FE01B4EC3B000A76C29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A16FE61B4EC3B000A76C29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A16FC81B4EC3B000A76C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A16FD51B4EC3B000A76C29 /* AppDelegate.m in Sources */,
+				12A16FD81B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld in Sources */,
+				12A16FDB1B4EC3B000A76C29 /* ViewController.m in Sources */,
+				12A16FD21B4EC3B000A76C29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A16FE41B4EC3B000A76C29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A16FEF1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A16FEA1B4EC3B000A76C29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A16FCB1B4EC3B000A76C29 /* AdaptiveRotationTest */;
+			targetProxy = 12A16FE91B4EC3B000A76C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A16FDC1B4EC3B000A76C29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A16FDD1B4EC3B000A76C29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A16FE21B4EC3B000A76C29 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A16FF01B4EC3B000A76C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12A16FF11B4EC3B000A76C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12A16FF31B4EC3B000A76C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdaptiveRotationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12A16FF41B4EC3B000A76C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdaptiveRotationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12A16FF61B4EC3B000A76C29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdaptiveRotationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveRotationTest.app/AdaptiveRotationTest";
+			};
+			name = Debug;
+		};
+		12A16FF71B4EC3B000A76C29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AdaptiveRotationTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdaptiveRotationTest.app/AdaptiveRotationTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A16FC71B4EC3B000A76C29 /* Build configuration list for PBXProject "AdaptiveRotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A16FF01B4EC3B000A76C29 /* Debug */,
+				12A16FF11B4EC3B000A76C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A16FF21B4EC3B000A76C29 /* Build configuration list for PBXNativeTarget "AdaptiveRotationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A16FF31B4EC3B000A76C29 /* Debug */,
+				12A16FF41B4EC3B000A76C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A16FF51B4EC3B000A76C29 /* Build configuration list for PBXNativeTarget "AdaptiveRotationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A16FF61B4EC3B000A76C29 /* Debug */,
+				12A16FF71B4EC3B000A76C29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		12A16FD61B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				12A16FD71B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodel */,
+			);
+			currentVersion = 12A16FD71B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodel */;
+			path = AdaptiveRotationTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 12A16FC41B4EC3B000A76C29 /* Project object */;
+}
