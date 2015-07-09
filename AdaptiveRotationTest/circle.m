@@ -22,30 +22,46 @@
 
 - (void)drawRect:(CGRect)rect {
     CGRect bounds = self.bounds;
-    CGPoint sizeLocation;
-    sizeLocation.x = (bounds.origin.x + bounds.size.width) / 3.0;
-    sizeLocation.y = (bounds.origin.y + bounds.size.height) / 5.0;
     
-    CGRect x1Frame = CGRectMake(bounds.origin.x, bounds.origin.y, bounds.size.width, 1);
+    CGRect x1Frame = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width, 1);
 
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    
-    CGContextSetRGBFillColor(ctx, 0, 0, 255, 1);
+    CGContextSetFillColorWithColor(ctx, [UIColor grayColor].CGColor);
     CGContextFillRect(ctx, x1Frame);
-//
-//    UIView *view = [[UIView alloc] initWithFrame:x1Frame];
-//    view.backgroundColor = [UIColor blueColor];
-//    
-//    CAShapeLayer *shape = [CAShapeLayer layer];
-//    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:view.center radius:(view.bounds.size.width / 2) startAngle:0 endAngle:(2 * M_PI) clockwise:YES];
-//    shape.path = path.CGPath;
-//    view.layer.mask = shape;
     
-//    CGContextRef ct = UIGraphicsGetCurrentContext();
-//    CGContextAddEllipseInRect(ct, rect);
-//    CGContextSetFillColor(ct, CGColorGetComponents([[UIColor blueColor] CGColor]));
-//    CGContextFillPath(ct);
+    
+    CGFloat rectX = self.frame.size.width / 2;
+    CGFloat rectY = self.frame.size.height / 2;
+    CGFloat width = 100;
+    CGFloat height = 100;
+    CGFloat centerX = rectX - width/2;
+    CGFloat centerY = rectY - height/2;
+    
+    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(centerX, centerY, width, height)];
+    [[UIColor grayColor] set];
+    [bezierPath stroke];
+    
+    
+//    //the center and radius of the circle
+//    CGPoint center;
+//    center.x = bounds.origin.x + bounds.size.width / 2.0;
+//    center.y = bounds.origin.y + bounds.size.height / 2.0;
+//    float radius = MIN(bounds.size.width, bounds.size.height) / 2.0;
+//    
+//    //draw the first green circle
+//    UIBezierPath *path = [[UIBezierPath alloc]init];
+//    [path addArcWithCenter:center radius:radius -10 startAngle:0 endAngle:M_PI*2.0 clockwise:YES];
+//    path.lineWidth = 10;
+//    [[UIColor greenColor] setStroke];
+//    [path stroke];
+//    
+//    //draw the second red circle
+//    UIBezierPath *secondPath = [[UIBezierPath alloc]init];
+//    [secondPath addArcWithCenter:center radius:radius -30 startAngle:0 endAngle:M_PI*2.0 clockwise:YES];
+//    secondPath.lineWidth = 10;
+//    [[UIColor redColor] setStroke];
+//    [secondPath stroke];
     
 }
 
