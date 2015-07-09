@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *cicle;
+@property (weak, nonatomic) IBOutlet UILabel *line;
 
 @end
 
