@@ -16,6 +16,9 @@
 		12A16FE31B4EC3B000A76C29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */; };
 		12A16FEF1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FEE1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m */; };
 		12A16FFB1B4ECC2D00A76C29 /* person.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A16FFA1B4ECBD000A76C29 /* person.ttf */; };
+		12E9D0A71B4ED03F001C88D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E9D0A61B4ED03F001C88D3 /* QuartzCore.framework */; };
+		12E9D0AA1B4ED0E6001C88D3 /* circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0A91B4ED0E6001C88D3 /* circle.m */; };
+		12E9D0AD1B4EDE42001C88D3 /* verticalCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E9D0AC1B4EDE42001C88D3 /* verticalCircle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,11 @@
 		12A16FED1B4EC3B000A76C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A16FEE1B4EC3B000A76C29 /* AdaptiveRotationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdaptiveRotationTestTests.m; sourceTree = "<group>"; };
 		12A16FFA1B4ECBD000A76C29 /* person.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = person.ttf; sourceTree = "<group>"; };
+		12E9D0A61B4ED03F001C88D3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		12E9D0A81B4ED0E6001C88D3 /* circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = circle.h; sourceTree = "<group>"; };
+		12E9D0A91B4ED0E6001C88D3 /* circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = circle.m; sourceTree = "<group>"; };
+		12E9D0AB1B4EDE42001C88D3 /* verticalCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = verticalCircle.h; path = ../verticalCircle.h; sourceTree = "<group>"; };
+		12E9D0AC1B4EDE42001C88D3 /* verticalCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = verticalCircle.m; path = ../verticalCircle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E9D0A71B4ED03F001C88D3 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +76,7 @@
 		12A16FC31B4EC3B000A76C29 = {
 			isa = PBXGroup;
 			children = (
+				12E9D0A61B4ED03F001C88D3 /* QuartzCore.framework */,
 				12A16FCE1B4EC3B000A76C29 /* AdaptiveRotationTest */,
 				12A16FEB1B4EC3B000A76C29 /* AdaptiveRotationTestTests */,
 				12A16FCD1B4EC3B000A76C29 /* Products */,
@@ -89,6 +99,10 @@
 				12A16FD41B4EC3B000A76C29 /* AppDelegate.m */,
 				12A16FD91B4EC3B000A76C29 /* ViewController.h */,
 				12A16FDA1B4EC3B000A76C29 /* ViewController.m */,
+				12E9D0AB1B4EDE42001C88D3 /* verticalCircle.h */,
+				12E9D0AC1B4EDE42001C88D3 /* verticalCircle.m */,
+				12E9D0A81B4ED0E6001C88D3 /* circle.h */,
+				12E9D0A91B4ED0E6001C88D3 /* circle.m */,
 				12A16FDC1B4EC3B000A76C29 /* Main.storyboard */,
 				12A16FDF1B4EC3B000A76C29 /* Images.xcassets */,
 				12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */,
@@ -227,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A16FD51B4EC3B000A76C29 /* AppDelegate.m in Sources */,
+				12E9D0AA1B4ED0E6001C88D3 /* circle.m in Sources */,
 				12A16FD81B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld in Sources */,
+				12E9D0AD1B4EDE42001C88D3 /* verticalCircle.m in Sources */,
 				12A16FDB1B4EC3B000A76C29 /* ViewController.m in Sources */,
 				12A16FD21B4EC3B000A76C29 /* main.m in Sources */,
 			);
