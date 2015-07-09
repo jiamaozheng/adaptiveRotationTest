@@ -21,14 +21,25 @@
 }
 
 - (void)drawRect:(CGRect)rect {
+      NSLog(@"Bounds Height:%f %f", self.bounds.size.height, self.bounds.size.width);
+    
     CGRect bounds = self.bounds;
+    //the center and radius of the circle
+    CGPoint center;
+    center.x = bounds.origin.x + bounds.size.width / 2.0;
+    center.y = bounds.origin.y + bounds.size.height / 2.0;
+    float radius = MIN(bounds.size.width, bounds.size.height) / 5.0;
     
-    CGRect x1Frame = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width, 1);
+    CGRect x1FrameL = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
+    CGRect x1FrameR = CGRectMake(bounds.origin.x + center.x + radius, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
 
+    CGContextRef ctxL = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(ctxL, [UIColor grayColor].CGColor);
+    CGContextFillRect(ctxL, x1FrameL);
     
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(ctx, [UIColor grayColor].CGColor);
-    CGContextFillRect(ctx, x1Frame);
+    CGContextRef ctxR = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(ctxR, [UIColor grayColor].CGColor);
+    CGContextFillRect(ctxR, x1FrameR);
     
     
     CGFloat rectX = self.frame.size.width / 2;
@@ -47,21 +58,33 @@
 //    CGPoint center;
 //    center.x = bounds.origin.x + bounds.size.width / 2.0;
 //    center.y = bounds.origin.y + bounds.size.height / 2.0;
-//    float radius = MIN(bounds.size.width, bounds.size.height) / 2.0;
-//    
+//    float radius = MIN(bounds.size.width, bounds.size.height) / 5.0;
+    
 //    //draw the first green circle
 //    UIBezierPath *path = [[UIBezierPath alloc]init];
-//    [path addArcWithCenter:center radius:radius -10 startAngle:0 endAngle:M_PI*2.0 clockwise:YES];
-//    path.lineWidth = 10;
-//    [[UIColor greenColor] setStroke];
+//    [path addArcWithCenter:center radius:radius - 10 startAngle:0 endAngle:M_PI*2.0 clockwise:YES];
+//    path.lineWidth = 1;
+//    [[UIColor grayColor] setStroke];
 //    [path stroke];
-//    
+//
 //    //draw the second red circle
 //    UIBezierPath *secondPath = [[UIBezierPath alloc]init];
 //    [secondPath addArcWithCenter:center radius:radius -30 startAngle:0 endAngle:M_PI*2.0 clockwise:YES];
 //    secondPath.lineWidth = 10;
 //    [[UIColor redColor] setStroke];
 //    [secondPath stroke];
+    
+    CGRect label2Frame = CGRectMake(center.x - radius, center.y - 30, 2*radius, 2*radius);
+    
+    UILabel *closedIssues = [[UILabel alloc]initWithFrame:label2Frame];
+    closedIssues.text = @"OR";
+    closedIssues.textColor = [UIColor grayColor];
+    closedIssues.textAlignment = NSTextAlignmentCenter;
+    closedIssues.numberOfLines = 0;
+    
+    [self addSubview:closedIssues];
+    
+    [self setTranslatesAutoresizingMaskIntoConstraints:NO];
     
 }
 
