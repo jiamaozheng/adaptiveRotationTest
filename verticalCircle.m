@@ -27,7 +27,7 @@
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
     
-    CGContextSetRGBFillColor(ctx, 0, 0, 255, 1);
+    CGContextSetFillColorWithColor(ctx, [UIColor grayColor].CGColor);
     CGContextFillRect(ctx, x1Frame);
     //
     //    UIView *view = [[UIView alloc] initWithFrame:x1Frame];

@@ -30,28 +30,28 @@
     center.y = bounds.origin.y + bounds.size.height / 2.0;
     float radius = MIN(bounds.size.width, bounds.size.height) / 5.0;
     
-    CGRect x1FrameL = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
-    CGRect x1FrameR = CGRectMake(bounds.origin.x + center.x + radius, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
+    CGRect x1FrameL = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width, 1);
+//    CGRect x1FrameR = CGRectMake(bounds.origin.x + center.x + radius, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
 
     CGContextRef ctxL = UIGraphicsGetCurrentContext();
     CGContextSetFillColorWithColor(ctxL, [UIColor grayColor].CGColor);
     CGContextFillRect(ctxL, x1FrameL);
     
-    CGContextRef ctxR = UIGraphicsGetCurrentContext();
-    CGContextSetFillColorWithColor(ctxR, [UIColor grayColor].CGColor);
-    CGContextFillRect(ctxR, x1FrameR);
-    
-    
-    CGFloat rectX = self.frame.size.width / 2;
-    CGFloat rectY = self.frame.size.height / 2;
-    CGFloat width = 100;
-    CGFloat height = 100;
-    CGFloat centerX = rectX - width/2;
-    CGFloat centerY = rectY - height/2;
-    
-    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(centerX, centerY, width, height)];
-    [[UIColor grayColor] set];
-    [bezierPath stroke];
+//    CGContextRef ctxR = UIGraphicsGetCurrentContext();
+//    CGContextSetFillColorWithColor(ctxR, [UIColor grayColor].CGColor);
+//    CGContextFillRect(ctxR, x1FrameR);
+//    
+//    
+//    CGFloat rectX = self.frame.size.width / 2;
+//    CGFloat rectY = self.frame.size.height / 2;
+//    CGFloat width = 100;
+//    CGFloat height = 100;
+//    CGFloat centerX = rectX - width/2;
+//    CGFloat centerY = rectY - height/2;
+//    
+//    UIBezierPath *bezierPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(centerX, centerY, width, height)];
+//    [[UIColor grayColor] set];
+//    [bezierPath stroke];
     
     
 //    //the center and radius of the circle
@@ -74,17 +74,17 @@
 //    [[UIColor redColor] setStroke];
 //    [secondPath stroke];
     
-    CGRect label2Frame = CGRectMake(center.x - radius, center.y - 30, 2*radius, 2*radius);
-    
-    UILabel *closedIssues = [[UILabel alloc]initWithFrame:label2Frame];
-    closedIssues.text = @"OR";
-    closedIssues.textColor = [UIColor grayColor];
-    closedIssues.textAlignment = NSTextAlignmentCenter;
-    closedIssues.numberOfLines = 0;
-    
-    [self addSubview:closedIssues];
-    
-    [self setTranslatesAutoresizingMaskIntoConstraints:NO];
+//    CGRect label2Frame = CGRectMake(center.x - radius, center.y - 30, 2*radius, 2*radius);
+//    
+//    UILabel *closedIssues = [[UILabel alloc]initWithFrame:label2Frame];
+//    closedIssues.text = @"OR";
+//    closedIssues.textColor = [UIColor grayColor];
+//    closedIssues.textAlignment = NSTextAlignmentCenter;
+//    closedIssues.numberOfLines = 0;
+//    
+//    [self addSubview:closedIssues];
+//    
+//    [self setTranslatesAutoresizingMaskIntoConstraints:NO];
     
 }
 
