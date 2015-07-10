@@ -4,7 +4,7 @@
 //
 //  Created by Jiamao Zheng on 7/9/15.
 //  Copyright (c) 2015 Emerge Media. All rights reserved.
-//
+// http://stackoverflow.com/questions/24954735/xcode-draw-circle-around-centre
 
 #import "circle.h"
 #import <QuartzCore/QuartzCore.h>
