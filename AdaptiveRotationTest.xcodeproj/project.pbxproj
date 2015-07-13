@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		129E4CD01B5409180019D14D /* iphoneLandshape.m in Sources */ = {isa = PBXBuildFile; fileRef = 129E4CCF1B5409180019D14D /* iphoneLandshape.m */; };
 		12A16FD21B4EC3B000A76C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD11B4EC3B000A76C29 /* main.m */; };
 		12A16FD51B4EC3B000A76C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD41B4EC3B000A76C29 /* AppDelegate.m */; };
 		12A16FD81B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 12A16FD61B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		129E4CCE1B5409180019D14D /* iphoneLandshape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphoneLandshape.h; sourceTree = "<group>"; };
+		129E4CCF1B5409180019D14D /* iphoneLandshape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iphoneLandshape.m; sourceTree = "<group>"; };
 		12A16FCC1B4EC3B000A76C29 /* AdaptiveRotationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdaptiveRotationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A16FD01B4EC3B000A76C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12A16FD11B4EC3B000A76C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				12E9D0A81B4ED0E6001C88D3 /* circle.h */,
 				12E9D0A91B4ED0E6001C88D3 /* circle.m */,
 				12A16FDC1B4EC3B000A76C29 /* Main.storyboard */,
+				129E4CCE1B5409180019D14D /* iphoneLandshape.h */,
+				129E4CCF1B5409180019D14D /* iphoneLandshape.m */,
 				12A16FDF1B4EC3B000A76C29 /* Images.xcassets */,
 				12A16FE11B4EC3B000A76C29 /* LaunchScreen.xib */,
 				12A16FD61B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld */,
@@ -245,6 +250,7 @@
 				12A16FD81B4EC3B000A76C29 /* AdaptiveRotationTest.xcdatamodeld in Sources */,
 				12E9D0AD1B4EDE42001C88D3 /* verticalCircle.m in Sources */,
 				12A16FDB1B4EC3B000A76C29 /* ViewController.m in Sources */,
+				129E4CD01B5409180019D14D /* iphoneLandshape.m in Sources */,
 				12A16FD21B4EC3B000A76C29 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

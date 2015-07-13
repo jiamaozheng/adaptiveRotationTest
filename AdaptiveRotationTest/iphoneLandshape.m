@@ -1,14 +1,14 @@
 //
-//  verticalCircle.m
+//  iphoneLandshape.m
 //  AdaptiveRotationTest
 //
-//  Created by Jiamao Zheng on 7/9/15.
+//  Created by Jiamao Zheng on 7/13/15.
 //  Copyright (c) 2015 Emerge Media. All rights reserved.
 //
 
-#import "verticalCircle.h"
+#import "iphoneLandshape.h"
 
-@implementation verticalCircle
+@implementation iphoneLandshape
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -27,15 +27,14 @@
     CGPoint center;
     center.x = bounds.origin.x + bounds.size.width / 2.0;
     center.y = bounds.origin.y + bounds.size.height / 2.0;
-    float radius = MIN(bounds.size.width, bounds.size.height) / 3.0;
+    float radius = MIN(bounds.size.width, bounds.size.height) /1.5;
     
-    CGRect x1Frame = CGRectMake(bounds.size.width/2, 0, 1, bounds.size.height);
+    CGRect x1FrameL = CGRectMake(bounds.origin.x, bounds.origin.y + bounds.size.height/2, bounds.size.width, 1);
+    //    CGRect x1FrameR = CGRectMake(bounds.origin.x + center.x + radius, bounds.origin.y + bounds.size.height/2, bounds.size.width/2 - radius, 1);
     
-    
-    CGContextRef ctx = UIGraphicsGetCurrentContext();
-    
-    CGContextSetFillColorWithColor(ctx, [UIColor grayColor].CGColor);
-    CGContextFillRect(ctx, x1Frame);
+    CGContextRef ctxL = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(ctxL, [UIColor grayColor].CGColor);
+    CGContextFillRect(ctxL, x1FrameL);
     
     //draw the first green circle
     UIBezierPath *path = [[UIBezierPath alloc]init];
@@ -53,20 +52,6 @@
     closedIssues.numberOfLines = 0;
     
     [self addSubview:closedIssues];
-    
-    //
-    //    UIView *view = [[UIView alloc] initWithFrame:x1Frame];
-    //    view.backgroundColor = [UIColor blueColor];
-    //
-    //    CAShapeLayer *shape = [CAShapeLayer layer];
-    //    UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:view.center radius:(view.bounds.size.width / 2) startAngle:0 endAngle:(2 * M_PI) clockwise:YES];
-    //    shape.path = path.CGPath;
-    //    view.layer.mask = shape;
-    
-//        CGContextRef ct = UIGraphicsGetCurrentContext();
-//        CGContextAddEllipseInRect(ct, rect);
-//        CGContextSetFillColor(ct, CGColorGetComponents([[UIColor blueColor] CGColor]));
-//        CGContextFillPath(ct);
     
 }
 
